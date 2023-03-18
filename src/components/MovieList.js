@@ -17,13 +17,13 @@ function MovieList({ movies }) {
         </tr>
       </thead>
       <tbody>
-//       {movies.map(() => (
-//        console.log(movies)  
-//             <tc>{movie.title}</tc>
-//             <tr>{movie.genre}</tr>
-//             <td>{movie.year}</td>
-
-//         ))}
+      {/* {movies.map(() => (
+        console.log(movies)  
+             <tc>{movie.title}</tc>
+             console.log(movies.title)
+             <tr>{movie.genre}</tr>
+             <td>{movie.year}</td> 
+         ))} */}
 
         {/* Map over the movies array and create a row for each movie 
         printing title, genre and year as asked to using expression
