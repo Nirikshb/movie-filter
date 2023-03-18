@@ -18,6 +18,7 @@ function MovieList({ movies }) {
       </thead>
       <tbody>
 //       {movies.map(() => (
+      //console.log(movies)
 //           <tr>
 //             <tc>{movie.title}</tc>
 //             <tr>{movie.genre}</tr>
@@ -31,6 +32,7 @@ function MovieList({ movies }) {
         {movies.map((movie) => (
           <tr key={movie.title}>
             <td>{movie.title}</td>
+//console.log(movies.title)
             <td>{movie.genre}</td>
             <td>{movie.year}</td>
           </tr>
