@@ -2,7 +2,7 @@ import React from 'react';
 
 function MovieList({ movies }) {
     // If there are no movies in the array, return a message
-    //using truthy values
+    //used simple truthy value function for that.
     if (!movies.length) {
       return <p>No movies found.</p>;
   }
@@ -17,7 +17,9 @@ function MovieList({ movies }) {
         </tr>
       </thead>
       <tbody>
-        {/* Map over the movies array and create a row for each movie */}
+        {/* Map over the movies array and create a row for each movie 
+        printing title, genre and year as asked to using expression
+        */}
         {movies.map((movie) => (
           <tr key={movie.title}>
             <td>{movie.title}</td>
