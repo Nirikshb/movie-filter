@@ -50,7 +50,10 @@ tbody td {
     cursor: pointer;
   }
    
- 
+ /* breakpoint 768px for most devices accross
+  using this to apply to all chold elements
+  adding widht 100% so can adjust accordingly
+ */
   @media screen and (max-width: 768px) {
     .App > * {
       width: 100%;
