@@ -2,6 +2,7 @@ import React from 'react';
 
 function MovieList({ movies }) {
     // If there are no movies in the array, return a message
+    //using truthy values
     if (!movies.length) {
       return <p>No movies found.</p>;
   }
