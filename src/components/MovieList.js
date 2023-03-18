@@ -2,8 +2,8 @@ import React from 'react';
 
 function MovieList({ movies }) {
     // If there are no movies in the array, return a message
-  if (movies.length === 0) {
-    return <p>No movies found.</p>;
+    if (!movies.length) {
+      return <p>No movies found.</p>;
   }
 // printing the data using table tag
   return (
