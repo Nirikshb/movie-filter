@@ -36,26 +36,26 @@ const genres = [
 ];
 
 function App() {
-  // Use state for genre
+  // Use state for genreselction
   const [selectedGenre, setSelectedGenre] = useState("");
 
-  // using usestate to set genre and logging to check if it works
+  // using usestate to set genre and logging to check if it works and what was shown in video
   const handleGenreSelect = (genre) => {
     setSelectedGenre(genre);
     console.log(`Selected genre: ${genre}`);
   };
 
   // Filtering the movies using ternanry operator
-  const filteredMovies = selectedGenre
+  const movieFilter = selectedGenre
     ? movies.filter((movie) => movie.genre === selectedGenre)
     : movies;
 
   return (
     <div className="App">
     <h1>Top 15 Movies of All Time</h1>
-    {/* Printing the data */}
+    {/* Printing the data rendered using components*/}
       <GenreFilter genres={genres} onGenreSelect={handleGenreSelect} />
-      <MovieList movies={filteredMovies} />
+      <MovieList movies={movieFilter} />
     </div>
   );
 }
