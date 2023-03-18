@@ -1,3 +1,6 @@
+![Screenshot (483)](https://user-images.githubusercontent.com/111577030/226110288-e7d2dd5e-6d4c-4a54-90a4-f034fa1b1e46.png)
+
+
 Create a React app that displays a list of movies and allows the user to filter them by genre.
 The app should include the following components:
 
@@ -17,3 +20,4 @@ The GenreFilter component should display a list of genre filter buttons based on
 const genres = [ "Drama", "Crime", "Action", "Fantasy", "Western", "Science Fiction", "Thriller", "War", "Animation", ];
 
 Pass this array as a prop from App.js into the GenreFilter.js component and map the array to buttons as shown in the UI. Once the button is clicked console.log the genre which has been selected. Clicking a button should log a message to the console indicating that the user has selected that genre button.
+
