@@ -18,12 +18,11 @@ function MovieList({ movies }) {
       </thead>
       <tbody>
 //       {movies.map(() => (
-//        console.log(movies)
-//           <tr>
+//        console.log(movies)  
 //             <tc>{movie.title}</tc>
 //             <tr>{movie.genre}</tr>
 //             <td>{movie.year}</td>
-//           </tr>
+
 //         ))}
 
         {/* Map over the movies array and create a row for each movie 
@@ -31,9 +30,6 @@ function MovieList({ movies }) {
         */}
         {movies.map((movie) => (
           <tr key={movie.title}>
-      
-//console.log(movies.title)
-
             <td>{movie.title}</td>
             <td>{movie.genre}</td>
             <td>{movie.year}</td>
