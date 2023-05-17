@@ -1,7 +1,7 @@
 ![Screenshot (483)](https://user-images.githubusercontent.com/111577030/226110288-e7d2dd5e-6d4c-4a54-90a4-f034fa1b1e46.png)
 
 
-Create a React app that displays a list of movies and allows the user to filter them by genre.
+A React app that displays a list of movies and allows the user to filter them by genre.
 The app should include the following components:
 
 App: The root component that renders everything else.
