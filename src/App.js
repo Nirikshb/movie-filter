@@ -46,8 +46,7 @@ function App() {
   };
 
   // Filtering the movies using ternanry operator
-  const movieFilter = selectedGenre
-    ? movies.filter((movie) => movie.genre === selectedGenre)
+  const movieFilter = selectedGenre    ? movies.filter((movie) => movie.genre === selectedGenre)
     : movies;
 
   return (
